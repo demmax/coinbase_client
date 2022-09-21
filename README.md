@@ -26,4 +26,4 @@ Sometimes `websocketpp` fails to connect to server with error
 [fail] WebSocket Connection Unknown - "" / 0 websocketpp.transport:9 Timer Expired
 ```
 Seems to be a pretty common issue, but I didn't find any specific reason or 
-feasible solution. Maybe that's related to too much requests, I don't know. 
+feasible solution. Maybe that's related to too much requests, but I'm not sure.
