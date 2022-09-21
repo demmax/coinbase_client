@@ -20,6 +20,9 @@ Basically, application consists of 3 parts:
 `CoinbaseClient` is responsible for connecting to websocket and receiving data. When data received, it  enqueues message to 
 `AsyncMessageConverter`, which serializes message to `protobuf` in a separate thread, and sends it to `UdpPublisher`.
 
+Consumer part is a simple python script, it's simple and pretty straightforward.
+
+
 ### Known issues
 Sometimes `websocketpp` fails to connect to server with error 
 ```
