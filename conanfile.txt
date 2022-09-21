@@ -1,0 +1,7 @@
+[requires]
+boost/1.79.0
+websocketpp/0.8.1
+
+[generators]
+cmake
+cmake_find_package

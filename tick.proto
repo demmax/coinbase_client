@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Tick {
+  int32 version = 1;
+  string ticker = 2;
+  string best_bid = 3;
+  string best_ask = 4;
+}
