@@ -16,8 +16,8 @@ find_package(Protobuf REQUIRED)
 set (SOURCES src/main.cpp
              src/coinbase_client.cpp
              src/udp_publisher.cpp
-        src/async_message_converter.cpp
-        )
+             src/async_message_converter.cpp
+             src/tick.pb.cc)
 
 add_executable(coinbase_client ${SOURCES})
 target_include_directories(coinbase_client PRIVATE ${CONAN_INCLUDE_DIRS})
